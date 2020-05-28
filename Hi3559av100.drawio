@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-28T02:39:39.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.21 Safari/537.36" etag="R3_c5JUQkjdnbn5D3Pjc" version="13.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-28T02:46:18.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.21 Safari/537.36" etag="4vXE4pOycq77RK7bWa_b" version="13.1.3" type="github">
   <diagram name="Page-1" id="7a6c530e-6e37-e111-ec74-82921da8cc10">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -192,8 +192,8 @@
         <mxCell id="-VV5BEiCqNstA68VeZ1g-2" value="eMMC Controller" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="331" y="655" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-VV5BEiCqNstA68VeZ1g-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/photographer-7/128/memory-card-SD-data-storage-128.png" vertex="1" parent="1">
-          <mxGeometry x="208" y="657.5" width="25" height="25" as="geometry" />
+        <mxCell id="-VV5BEiCqNstA68VeZ1g-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;THGBMJG7C1LBAIL_15nm 16GB&lt;/font&gt;&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/photographer-7/128/memory-card-SD-data-storage-128.png" vertex="1" parent="1">
+          <mxGeometry x="111" y="657.5" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-VV5BEiCqNstA68VeZ1g-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=7;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-VV5BEiCqNstA68VeZ1g-6">
           <mxGeometry relative="1" as="geometry">
