@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-19T10:35:01.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4173.0 Safari/537.36" etag="Geb556d-79FJympz8g-W" version="13.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-19T10:42:26.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4173.0 Safari/537.36" etag="lVLfKhe4-KhhW2j9ip9g" version="13.2.6" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="1673" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,8 +84,13 @@
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4CMs9tDYtMEGwvXOvuF7-42" target="4CMs9tDYtMEGwvXOvuF7-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-147" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4CMs9tDYtMEGwvXOvuF7-146" target="4CMs9tDYtMEGwvXOvuF7-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="949.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-50" value="struct devdrv_agent_load" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="700" width="160" height="156" as="geometry" />
+          <mxGeometry x="320" y="700" width="160" height="182" as="geometry" />
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-51" value="dev_id" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4CMs9tDYtMEGwvXOvuF7-50">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -101,6 +106,9 @@
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-61" value="load_vector" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4CMs9tDYtMEGwvXOvuF7-50">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-146" value="load_timer" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4CMs9tDYtMEGwvXOvuF7-50">
+          <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=link;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="4CMs9tDYtMEGwvXOvuF7-52" target="4CMs9tDYtMEGwvXOvuF7-44">
           <mxGeometry relative="1" as="geometry" />
@@ -223,6 +231,18 @@
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-144" value="DMA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="283" y="1113" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-145" value="64M大小" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="1093" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-151" value="devdrv_timer_task()&lt;br&gt;超时回调检测文件加载完成标记位,&lt;br&gt;标记位由中断触发设置DEVDRV_LOAD_SUCCESS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="55" y="962" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-148" value="struct timer_list" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="130" y="910" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-149" value="*func()" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4CMs9tDYtMEGwvXOvuF7-148">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
