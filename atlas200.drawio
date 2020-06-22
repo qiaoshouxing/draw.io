@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T01:20:27.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4173.0 Safari/537.36" etag="U4Ke6Jkge0QDLwJ9Uqm5" version="13.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-22T01:20:50.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4173.0 Safari/537.36" etag="UTCAfF_kogmJVCsIP2bk" version="13.3.0" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,24 +26,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="949.9999999999998" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4CMs9tDYtMEGwvXOvuF7-157" value="struct devdrv_ctrl" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d80073;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="310" y="70" width="140" height="156" as="geometry" />
-        </mxCell>
-        <mxCell id="4CMs9tDYtMEGwvXOvuF7-158" value="dev_id" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="4CMs9tDYtMEGwvXOvuF7-159" value="*bus" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="4CMs9tDYtMEGwvXOvuF7-160" value="*dev" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="4CMs9tDYtMEGwvXOvuF7-161" value="priv" style="text;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;fillColor=#FFFFFF;strokeColor=#2D7600;fontColor=#000000;gradientColor=none;fontStyle=1" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
-          <mxGeometry y="104" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="4CMs9tDYtMEGwvXOvuF7-165" value="dev_type" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
-          <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-50" value="struct devdrv_agent_load" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d80073;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="320" y="700" width="160" height="182" as="geometry" />
@@ -267,6 +249,24 @@
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-42" value="*agent_loader" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
           <mxGeometry x="250" y="616" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-157" value="struct devdrv_ctrl" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d80073;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="310" y="70" width="140" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-158" value="dev_id" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-159" value="*bus" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-160" value="*dev" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-161" value="priv" style="text;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;fillColor=#FFFFFF;strokeColor=#2D7600;fontColor=#000000;gradientColor=none;fontStyle=1" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMs9tDYtMEGwvXOvuF7-165" value="dev_type" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
