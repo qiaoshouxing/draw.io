@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-28T09:15:08.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="mXWJIunGn5BMsSGKkgnv" version="13.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-28T11:48:20.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="otFeJ3OyLglsBJkBLKWK" version="13.3.0" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
-    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3671" dy="2693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -398,7 +398,7 @@
           <mxGeometry x="-271" y="-570" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-157" value="struct devdrv_ctrl" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d80073;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="310" y="70" width="140" height="156" as="geometry" />
+          <mxGeometry x="310" y="70" width="140" height="182" as="geometry" />
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-158" value="dev_id" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -414,6 +414,9 @@
         </mxCell>
         <mxCell id="4CMs9tDYtMEGwvXOvuF7-165" value="dev_type" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="4CMs9tDYtMEGwvXOvuF7-157" vertex="1">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TfZTh5bj4eviRc6YyPCX-42" value="ops" style="text;strokeColor=#000000;fillColor=#ffffff;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="4CMs9tDYtMEGwvXOvuF7-157">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KGFi5STX7Q2RRd9KJe1o-8" value="pci资源的硬件地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="411" width="110" height="20" as="geometry" />
