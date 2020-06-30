@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T03:56:21.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="7eD03DnQwP-MFaoZH-Ji" version="13.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-30T03:57:27.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="TdCZP9SoCHvbRoGZ3Gd6" version="13.3.5" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="3327" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -719,10 +719,10 @@
           <mxGeometry x="-150" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-65" value="trans的参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontColor=#FF9933;" vertex="1" parent="1">
-          <mxGeometry x="-1170" y="825" width="70" height="20" as="geometry" />
+          <mxGeometry x="-880" y="492" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-66" value="&lt;font color=&quot;#3333ff&quot;&gt;non-trans的参数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF9933;" vertex="1" parent="1">
-          <mxGeometry x="-1195" y="920" width="100" height="20" as="geometry" />
+          <mxGeometry x="-890" y="600" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-75" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;fontColor=#FF9933;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3cxTj1WRpVSJI_Zq0dqR-48" target="3cxTj1WRpVSJI_Zq0dqR-67">
           <mxGeometry relative="1" as="geometry" />
@@ -753,7 +753,7 @@
             <mxPoint x="-200" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-109" value="使用外部接口devdrv_pcimsg_alloc_trans_queue()调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="3cxTj1WRpVSJI_Zq0dqR-100">
+        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-109" value="使用外部接口devdrv_pcimsg_alloc_trans_queue()调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;labelBackgroundColor=none;fontColor=#FF3333;" vertex="1" connectable="0" parent="3cxTj1WRpVSJI_Zq0dqR-100">
           <mxGeometry x="0.1729" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -789,7 +789,7 @@
           <mxGeometry y="234" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-81" value="1、不同功能模块初始化不同的msg_chan_info，并作为参数传递给ops的操作函数&lt;br&gt;&lt;div&gt;&lt;span&gt;2、ops操作函数进行初始化msg_chan进行注册，并发送消息和注册对应中断回调与device进行通信&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;（数据结构图已common_msg模块为例）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;fontSize=5;" vertex="1" parent="1">
-          <mxGeometry x="-1289" y="-180" width="630" height="60" as="geometry" />
+          <mxGeometry x="-1000" y="-100" width="630" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-21" value="enum devdrv_msg_client_type" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;glass=0;rounded=0;shadow=0;sketch=0;gradientColor=#FF0000;swimlaneFillColor=#19FF9C;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1480" y="352" width="200" height="208" as="geometry" />
@@ -866,7 +866,7 @@
             <mxPoint x="-935" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-108" value="使用外部接口devdrv_pcimsg_alloc_non_trans_queue()调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="3cxTj1WRpVSJI_Zq0dqR-107">
+        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-108" value="使用外部接口devdrv_pcimsg_alloc_non_trans_queue()调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;labelBackgroundColor=none;fontColor=#FF3333;" vertex="1" connectable="0" parent="3cxTj1WRpVSJI_Zq0dqR-107">
           <mxGeometry x="-0.1034" y="7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
