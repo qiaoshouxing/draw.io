@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T03:57:27.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="TdCZP9SoCHvbRoGZ3Gd6" version="13.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-30T03:59:28.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="ZFnsnNSzcrem8Rf3o3uc" version="13.3.5" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="3327" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -756,6 +756,11 @@
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-109" value="使用外部接口devdrv_pcimsg_alloc_trans_queue()调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;labelBackgroundColor=none;fontColor=#FF3333;" vertex="1" connectable="0" parent="3cxTj1WRpVSJI_Zq0dqR-100">
           <mxGeometry x="0.1729" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-120" value="根据msg_chan_info创建msg_chan" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;dashed=1;" edge="1" parent="1" source="3cxTj1WRpVSJI_Zq0dqR-46" target="-TiSCFnoP1qfZfvwGQQL-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1015" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-46" value="struct devdrv_msg_chan_info" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" vertex="1" parent="1">
