@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T03:02:36.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="mEYmUEVhLxbekF_ggbaq" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T03:03:51.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="7XtsnG9VsDiweNeOEV3m" version="13.3.9" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="3685" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,9 +415,9 @@
         <mxCell id="-TiSCFnoP1qfZfvwGQQL-13" style="edgeStyle=none;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;width=4.722222222222222;endSize=6.2444444444444445;endWidth=10.285714285714286;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4CMs9tDYtMEGwvXOvuF7-36" target="-TiSCFnoP1qfZfvwGQQL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-TiSCFnoP1qfZfvwGQQL-14" value="+DEVDRV_IEP_SDI0_OFFSET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="-TiSCFnoP1qfZfvwGQQL-13" vertex="1" connectable="0">
+        <mxCell id="-TiSCFnoP1qfZfvwGQQL-14" value="&lt;font color=&quot;#ff4f0f&quot;&gt;+DEVDRV_IEP_SDI0_OFFSET&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="-TiSCFnoP1qfZfvwGQQL-13" vertex="1" connectable="0">
           <mxGeometry x="0.1479" y="-3" relative="1" as="geometry">
-            <mxPoint x="76.51" y="4.21" as="offset" />
+            <mxPoint x="64.27000000000001" y="3.16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TiSCFnoP1qfZfvwGQQL-15" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-TiSCFnoP1qfZfvwGQQL-6" target="KGFi5STX7Q2RRd9KJe1o-4" edge="1">
@@ -935,6 +935,17 @@
         </mxCell>
         <mxCell id="LjaLB3rIfHGLGNLnP-2d-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Dfq3eqMctZGsWVETaQW-1" target="LjaLB3rIfHGLGNLnP-2d-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LjaLB3rIfHGLGNLnP-2d-10" style="edgeStyle=none;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;width=4.722222222222222;endSize=6.2444444444444445;endWidth=10.285714285714286;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4rqcEA7wsS3cXAYtvrbO-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260.00000000000045" y="379" as="sourcePoint" />
+            <mxPoint x="-150" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjaLB3rIfHGLGNLnP-2d-11" value="&lt;font color=&quot;#ff4f0f&quot;&gt;DEVDRV_IEP_DMA_OFFSET&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="LjaLB3rIfHGLGNLnP-2d-10">
+          <mxGeometry x="0.1479" y="-3" relative="1" as="geometry">
+            <mxPoint x="121.83000000000001" y="-90.62" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
