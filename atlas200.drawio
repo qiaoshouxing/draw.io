@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T02:04:49.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="4-79IQAObuoDmrGfXSIl" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T03:02:36.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4181.8 Safari/537.36" etag="mEYmUEVhLxbekF_ggbaq" version="13.3.9" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
-    <mxGraphModel dx="3327" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3685" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -773,8 +773,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-99" value="device OS没有启动之前，复用0起始的中断号，用做系统加载&lt;br&gt;device OS启动后，用做数据传输中断" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;fontSize=5;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-271" y="-444" width="401" height="44" as="geometry" />
+        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-99" value="MDA空间划分：&lt;br&gt;device OS没有启动之前，复用0起始的中断号，用做系统加载&lt;br&gt;device OS启动后，用做数据传输中断" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;fontSize=5;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-270" y="-444" width="400" height="44" as="geometry" />
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-13" value="struct devdrv_trans_msg_chan_info" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-1345" y="70" width="250" height="182" as="geometry" />
