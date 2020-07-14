@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-14T09:45:24.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="zNF8epw6nEAgM1ZTd_YQ" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-14T09:58:03.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="lWr4yzVftAc3aa4ptkYo" version="13.4.2" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1019,7 +1019,7 @@
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-119" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openAsync;endFill=0;strokeColor=#000000;strokeWidth=2;dashPattern=1 1;shape=link;" edge="1" parent="1" source="qVZGe-r6XXEsgC1kHxSw-118" target="qVZGe-r6XXEsgC1kHxSw-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qVZGe-r6XXEsgC1kHxSw-118" value="此区域用于atlas200加载启动文件，参考agent_load-&amp;gt;mem_sram_base&lt;br&gt;前八个字节为传输状态位，参考DEVDRV_LOAD_FILE_BEGIN&lt;br&gt;后八个字节为块个数，后面是每块的数据由DMA地址和数据大小组成，参考struct devdrv_load_blocks" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-118" value="此区域用于atlas200加载启动文件，参考agent_load-&amp;gt;mem_sram_base&lt;br&gt;前八个字节为传输状态位，参考DEVDRV_LOAD_FILE_BEGIN&lt;br&gt;后八个字节为块个数，后面是每块的数据由DMA地址和数据大小组成，参考struct devdrv_load_blocks，双方通过状态位进行操作" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1160" y="160" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-120" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fillColor=none;" vertex="1" parent="1">
@@ -1052,7 +1052,7 @@
             <mxPoint x="1120" y="426" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZGe-r6XXEsgC1kHxSw-130" value="每个msg_chan提醒atlas200有消息传输，前四字节为sq doorbell,与shr_para-&amp;gt;admin_msg_status作为中断组合传输IEP BAR中msg_chan的数据" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-130" value="每个msg_chan提醒atlas200有消息传输，前四字节为sq doorbell,与shr_para-&amp;gt;admin_msg_status作为中断组合传输IEP_SDI0中msg_chan的数据" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1170" y="401" width="350" height="49" as="geometry" />
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-133" value="DEVDRV_LOAD_MSI_X_VECTOR_NUM/&lt;br&gt;DEVDRV_MSG_MSI_X_VECTOR_BASE&lt;br&gt;（64）" style="html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -1191,7 +1191,7 @@
             <mxPoint x="1120" y="252.00003533568903" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZGe-r6XXEsgC1kHxSw-160" value="此区域是atlas200的DMA寄存器地址映射，通过此区域进行将dma_chan与200关联" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-160" value="此区域是atlas200的DMA寄存器地址映射，通过此区域将dma_chan与200关联" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1138" y="239" width="430" height="28" as="geometry" />
         </mxCell>
       </root>
