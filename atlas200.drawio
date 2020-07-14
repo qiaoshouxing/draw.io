@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-14T06:57:23.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="l_FaYODp6ksBX1g2a0C_" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-14T07:31:11.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="yWWvRnvTtz01-PWFkwnh" version="13.4.2" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="3327" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1080,7 +1080,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-59" value="0x37000000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="140" width="70" height="20" as="geometry" />
+          <mxGeometry x="1120" y="130" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-62" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#fa6800;width=3.3333333333333335;endSize=7.991666666666667;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4CMs9tDYtMEGwvXOvuF7-38" target="qVZGe-r6XXEsgC1kHxSw-53">
           <mxGeometry relative="1" as="geometry">
@@ -1134,11 +1134,11 @@
             <mxPoint x="105.94" y="-10.79" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZGe-r6XXEsgC1kHxSw-119" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openAsync;endFill=0;strokeColor=#000000;strokeWidth=2;dashPattern=1 1;shape=link;" edge="1" parent="1" source="qVZGe-r6XXEsgC1kHxSw-118" target="qVZGe-r6XXEsgC1kHxSw-74">
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-119" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openAsync;endFill=0;strokeColor=#000000;strokeWidth=2;dashPattern=1 1;shape=link;" edge="1" parent="1" source="qVZGe-r6XXEsgC1kHxSw-118" target="qVZGe-r6XXEsgC1kHxSw-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qVZGe-r6XXEsgC1kHxSw-118" value="此区域用于atlas200加载启动文件，参考agent_load-&amp;gt;mem_sram_base&lt;br&gt;前八个字节为传输状态位，参考DEVDRV_LOAD_FILE_BEGIN" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="185" width="430" height="20" as="geometry" />
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-118" value="此区域用于atlas200加载启动文件，参考agent_load-&amp;gt;mem_sram_base&lt;br&gt;前八个字节为传输状态位，参考DEVDRV_LOAD_FILE_BEGIN&lt;br&gt;后八个字节为块个数，后面是每块的数据由DMA地址和数据大小组成，参考struct devdrv_load_blocks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="170" width="430" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
