@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-14T07:31:11.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="yWWvRnvTtz01-PWFkwnh" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-14T08:05:27.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="7bFNq17JNBWYsrCp2m-B" version="13.4.2" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="3327" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,7 +126,7 @@
         <mxCell id="-TiSCFnoP1qfZfvwGQQL-17" value="......" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-TiSCFnoP1qfZfvwGQQL-1" vertex="1">
           <mxGeometry y="260" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-TiSCFnoP1qfZfvwGQQL-32" value="msg_chan[31]" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-TiSCFnoP1qfZfvwGQQL-1" vertex="1">
+        <mxCell id="-TiSCFnoP1qfZfvwGQQL-32" value="msg_chan[9]" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-TiSCFnoP1qfZfvwGQQL-1" vertex="1">
           <mxGeometry y="286" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-4" value="common_msg[]" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-TiSCFnoP1qfZfvwGQQL-1" vertex="1">
@@ -1139,6 +1139,15 @@
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-118" value="此区域用于atlas200加载启动文件，参考agent_load-&amp;gt;mem_sram_base&lt;br&gt;前八个字节为传输状态位，参考DEVDRV_LOAD_FILE_BEGIN&lt;br&gt;后八个字节为块个数，后面是每块的数据由DMA地址和数据大小组成，参考struct devdrv_load_blocks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1160" y="170" width="430" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-120" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;sketch=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-646" y="160" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-122" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#000000;strokeWidth=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qVZGe-r6XXEsgC1kHxSw-121" target="qVZGe-r6XXEsgC1kHxSw-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-121" value="中断号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-699" y="175" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
