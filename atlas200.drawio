@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-14T02:54:36.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="SKdAdQxLOxbPzlm3sesq" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-14T03:17:44.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="nEOIBL4arnXWeO3lJ1EX" version="13.4.2" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
-    <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2839" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1047,7 +1047,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-45" value="0x34000000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="490" width="70" height="20" as="geometry" />
+          <mxGeometry x="1290" y="520" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZGe-r6XXEsgC1kHxSw-47" target="qVZGe-r6XXEsgC1kHxSw-38">
           <mxGeometry relative="1" as="geometry">
@@ -1063,7 +1063,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-55" value="0x34020000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="446" width="70" height="20" as="geometry" />
+          <mxGeometry x="1290" y="426" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-61" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZGe-r6XXEsgC1kHxSw-59" target="qVZGe-r6XXEsgC1kHxSw-40">
           <mxGeometry relative="1" as="geometry">
@@ -1098,6 +1098,21 @@
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-74" value="IO SRAM(256K)" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="980" y="190" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-97" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=#ffffff;fillColor=none;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="459" width="40" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-102" value="MSI table信息，驱动填充32个相同DMA地址及data&lt;br&gt;pcie控制器通过写入DEVDRV_RC_MSI_ADDR寄存器的DMA地址判断是否有MSI中断请求从而触发中断" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="463" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-103" value="0x34010000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="492" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-106" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qVZGe-r6XXEsgC1kHxSw-103" target="qVZGe-r6XXEsgC1kHxSw-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="531.5999999999999" as="sourcePoint" />
+            <mxPoint x="1210.0000000000005" y="510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
