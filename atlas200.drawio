@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-14T09:58:03.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="lWr4yzVftAc3aa4ptkYo" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-15T02:18:08.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.15 Safari/537.36" etag="gnjn_7aAryBe9tujnULD" version="13.4.2" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
-    <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2839" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -555,7 +555,7 @@
           <mxGeometry y="234" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4rqcEA7wsS3cXAYtvrbO-1" value="struct devdrv_msg_queue_info" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-659" y="371" width="220" height="156" as="geometry" />
+          <mxGeometry x="-659" y="371" width="220" height="208" as="geometry" />
         </mxCell>
         <mxCell id="4rqcEA7wsS3cXAYtvrbO-2" value="depth" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4rqcEA7wsS3cXAYtvrbO-1" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -574,8 +574,14 @@
             <mxPoint x="-130" y="86" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-77" value="......" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4rqcEA7wsS3cXAYtvrbO-1" vertex="1">
+        <mxCell id="3cxTj1WRpVSJI_Zq0dqR-77" value="tail_d" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4rqcEA7wsS3cXAYtvrbO-1" vertex="1">
           <mxGeometry y="130" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-161" value="head_d" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4rqcEA7wsS3cXAYtvrbO-1">
+          <mxGeometry y="156" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-163" value="......" style="text;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4rqcEA7wsS3cXAYtvrbO-1">
+          <mxGeometry y="182" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3cxTj1WRpVSJI_Zq0dqR-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.013;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="TfZTh5bj4eviRc6YyPCX-42" target="3cxTj1WRpVSJI_Zq0dqR-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1052,7 +1058,7 @@
             <mxPoint x="1120" y="426" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZGe-r6XXEsgC1kHxSw-130" value="每个msg_chan提醒atlas200有消息传输，前四字节为sq doorbell,与shr_para-&amp;gt;admin_msg_status作为中断组合传输IEP_SDI0中msg_chan的数据" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-130" value="每个msg_chan占八字节提醒atlas200有消息传输，前四字节为sq doorbell,与shr_para-&amp;gt;admin_msg_status作为中断组合传输IEP_SDI0中msg_chan的数据" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1170" y="401" width="350" height="49" as="geometry" />
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-133" value="DEVDRV_LOAD_MSI_X_VECTOR_NUM/&lt;br&gt;DEVDRV_MSG_MSI_X_VECTOR_BASE&lt;br&gt;（64）" style="html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
