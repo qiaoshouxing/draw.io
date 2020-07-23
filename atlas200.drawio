@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-23T02:52:08.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.38 Safari/537.36" etag="kIL190aTXfFgORt02Zjl" version="13.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-23T06:32:16.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.38 Safari/537.36" etag="4FcEwzJ_Wi5XigBr8pAO" version="13.5.1" type="github">
   <diagram id="K24yG_uio-jVfGYNilbi" name="Page-1">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1088,7 +1088,7 @@
             <mxPoint x="1120" y="426" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZGe-r6XXEsgC1kHxSw-130" value="每个msg_chan占八字节，host设置此值ring的尾节点，提醒atlas200有消息发送，host端轮询检查shr_para-&amp;gt;admin_msg_status状态位，是否有msg_chan的sq数据接收,目前只用到admin msg chan，其他的msg chan通过发送create msg queue 进行创建，msix进行中断触发" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="qVZGe-r6XXEsgC1kHxSw-130" value="每个msg_chan占八字节，host设置此值ring的尾节点，提醒atlas200有消息发送。host端轮询检查shr_para-&amp;gt;admin_msg_status状态位，是否有msg_chan的sq数据接收；non_tran_msg的msg_chan通过检查dma中sq的数据位来判断是否发送数据成功" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1170" y="391.5" width="450" height="59" as="geometry" />
         </mxCell>
         <mxCell id="qVZGe-r6XXEsgC1kHxSw-133" value="DEVDRV_LOAD_MSI_X_VECTOR_NUM/&lt;br&gt;DEVDRV_MSG_MSI_X_VECTOR_BASE&lt;br&gt;（64）" style="html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
