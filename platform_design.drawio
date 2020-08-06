@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T10:14:22.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4221.3 Safari/537.36" etag="EvKoYpc_RrCpG3ZXr82V" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T10:15:00.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4221.3 Safari/537.36" etag="9iQIprUUhlW8pDXOq_z7" version="13.6.0" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
-    <mxGraphModel dx="3422" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3673" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="s2ZySxg1d-m6GW3_x3Qq-116" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 19px&quot;&gt;&lt;b&gt;ODM&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fillColor=none;fontSize=14;fontColor=#999999;align=left;strokeColor=#FFB570;" vertex="1" parent="1">
+        <mxCell id="s2ZySxg1d-m6GW3_x3Qq-116" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 19px&quot;&gt;&lt;b&gt;ODM&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontSize=14;fontColor=#999999;align=left;strokeColor=#FFB570;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1790" y="-550" width="1270" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="s2ZySxg1d-m6GW3_x3Qq-117" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 19px&quot;&gt;&lt;b&gt;我司产品&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fillColor=none;fontSize=14;fontColor=#999999;align=left;strokeColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="s2ZySxg1d-m6GW3_x3Qq-117" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 19px&quot;&gt;&lt;b&gt;我司产品&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontSize=14;fontColor=#999999;align=left;strokeColor=#00FF00;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1795" y="-750" width="1275" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="s2ZySxg1d-m6GW3_x3Qq-114" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 22px&quot;&gt;硬件OEM&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#999999;align=left;fillColor=none;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="s2ZySxg1d-m6GW3_x3Qq-114" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 22px&quot;&gt;硬件OEM&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#999999;align=left;fillColor=none;strokeColor=#FF3333;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1785" y="-280" width="1265" height="140" as="geometry" />
         </mxCell>
         <mxCell id="s2ZySxg1d-m6GW3_x3Qq-89" value="自研算法盒子" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
