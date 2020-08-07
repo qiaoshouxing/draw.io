@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-07T05:05:33.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4221.3 Safari/537.36" etag="aH1nn_4C_9rdLnw-7mRq" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-07T07:12:08.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4221.3 Safari/537.36" etag="XnrncrclvdRuUPel2lWa" version="13.6.0" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
-    <mxGraphModel dx="3273" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2785" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,6 +99,66 @@
             <mxPoint x="-1040.2" y="-230" as="sourcePoint" />
             <mxPoint x="-1040.2" y="-260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-16" value="客户需求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontSize=14;align=left;fontStyle=1;verticalAlign=top;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="-1340" width="530" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-17" value="算法盒子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontSize=16;align=left;verticalAlign=top;fontStyle=1;strokeWidth=2;fontColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1530" y="-1260" width="480" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-19" value="linux内核" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1435" y="-1090" width="285" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-20" value="ubuntu文件系统" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="-1200" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-21" value="客户开发程序" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontStyle=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="-1310" width="45" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-25" value="UBOOT" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1435" y="-1010" width="285" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-33" value="自研算法盒子" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-1435" y="-960" width="280" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-42" value="atlas200" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="-946" width="50" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-43" value="3559" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="-910" width="50" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-44" value="驱动模块" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="-1080" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-45" value="功能模块" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="-1050" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-46" value="动态库" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1420" y="-1130" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-47" value="工具" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="-1130" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-48" value="配置文件" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="-1130" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-49" value="开源社区deb软件源" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontStyle=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1430" y="-1310" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-50" value="我司定制开发程序" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontStyle=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-1310" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-32" value="docker" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1275" y="-1240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-51" value="web" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1215" y="-1240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-52" value="算法" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1275" y="-1260" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cYNA4GrkxNQ827yxEtgL-53" value="数据库" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1215" y="-1260" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
