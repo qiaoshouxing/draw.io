@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-08-07T09:32:47.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4221.3 Safari/537.36" etag="s1LfFCxbnYPQWYKVqnW6" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-07T09:45:50.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4221.3 Safari/537.36" etag="84KefHR-TWXxyC-fOox1" version="13.6.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="devdrv_manager_init()" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="100" y="128" width="344.5" height="570" as="geometry" />
+          <mxGeometry x="100" y="128" width="344.5" height="1102" as="geometry" />
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
           <mxGeometry x="148" y="40" width="30" height="30" as="geometry" />
@@ -19,16 +19,18 @@
           <mxGeometry x="108" y="110" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8" value="添加&quot;davinci_manager&quot;字符设备&#xa;class是“devdrv_manager”&#xa;操作符是devdrv_manager_file_operations&#xa;(dev_manager_info-&gt;dev)&#xa;" style="" parent="2" vertex="1">
-          <mxGeometry x="33" y="180" width="260" height="80" as="geometry" />
+          <mxGeometry x="33" y="170" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="7" target="8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="10" value="创建设备检查workqueue&#xa;(dev_manager_info-&gt;dev_rdy_work)" style="" parent="2" vertex="1">
-          <mxGeometry x="63" y="282" width="200" height="50" as="geometry" />
+          <mxGeometry x="63" y="332" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="8" target="10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="11" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="8" target="_3iI3aOARmOqrEQITrvo-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="163" y="292" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_3iI3aOARmOqrEQITrvo-41" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="10" target="2">
           <mxGeometry relative="1" as="geometry">
@@ -37,9 +39,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_3iI3aOARmOqrEQITrvo-44" value="创建ipc workqueue&lt;br&gt;（dev_manager_info-&amp;gt;ipc_event_recycle）" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-          <mxGeometry x="43" y="362" width="240" height="60" as="geometry" />
+          <mxGeometry x="43" y="402" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_3iI3aOARmOqrEQITrvo-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="10" target="_3iI3aOARmOqrEQITrvo-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_3iI3aOARmOqrEQITrvo-47" value="初始化dev_manager_info信息&#xa;（prob_num、host_type、drv_ops）" style="" vertex="1" parent="2">
+          <mxGeometry x="63" y="272" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3iI3aOARmOqrEQITrvo-48" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2" source="_3iI3aOARmOqrEQITrvo-47" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="398" as="sourcePoint" />
+            <mxPoint x="273" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3iI3aOARmOqrEQITrvo-49" value="devdrv_register_client()注册客户端devdrv_manager_host_instance，执行初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="23" y="482" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_3iI3aOARmOqrEQITrvo-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="_3iI3aOARmOqrEQITrvo-44" target="_3iI3aOARmOqrEQITrvo-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3" value="dev_manager_workqueue" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
