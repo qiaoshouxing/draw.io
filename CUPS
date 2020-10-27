@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T09:14:12.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.3" etag="0N8X7kNO97HDWvD0d6J5" type="github"><diagram id="Tb_5j4CfYidZL0KwT8qV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-27T09:32:43.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="z3qwHyCSXJQR3WXKiSsK" version="13.8.3" type="github">
+  <diagram id="Tb_5j4CfYidZL0KwT8qV" name="Page-1">
+    <mxGraphModel dx="981" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-1" value="内核" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-6" value="USB" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="RH7_2zlT4BS1CqMZ4t3L-3" target="RH7_2zlT4BS1CqMZ4t3L-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-3" value="打印机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="RH7_2zlT4BS1CqMZ4t3L-4" target="RH7_2zlT4BS1CqMZ4t3L-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-4" value="打印机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="450" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-9" value="用户态" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="RH7_2zlT4BS1CqMZ4t3L-10" target="RH7_2zlT4BS1CqMZ4t3L-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-10" value="USB总线驱动" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="366" y="385" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="RH7_2zlT4BS1CqMZ4t3L-12" target="RH7_2zlT4BS1CqMZ4t3L-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-12" value="/sys/bus/usb/devices/**设备&lt;br&gt;设备属性&lt;span style=&quot;&quot;&gt;Class=Printer&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="334" y="300" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-13" value="CUPS服务" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="352" y="207.5" width="124" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RH7_2zlT4BS1CqMZ4t3L-15" target="RH7_2zlT4BS1CqMZ4t3L-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-15" value="打印机驱动" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="494" y="227.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-26" value="libcups库" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="284" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="RH7_2zlT4BS1CqMZ4t3L-21" target="RH7_2zlT4BS1CqMZ4t3L-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459.44000000000005" y="160" as="sourcePoint" />
+            <mxPoint x="445" y="207.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-30" value="IPP消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="RH7_2zlT4BS1CqMZ4t3L-29">
+          <mxGeometry x="-0.2988" y="2" relative="1" as="geometry">
+            <mxPoint x="-6.34" y="12.92" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="RH7_2zlT4BS1CqMZ4t3L-20" target="RH7_2zlT4BS1CqMZ4t3L-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-24" value="IPP消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="RH7_2zlT4BS1CqMZ4t3L-22">
+          <mxGeometry x="-0.3495" y="-1" relative="1" as="geometry">
+            <mxPoint x="4.63" y="14.27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-20" value="命令行" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RH7_2zlT4BS1CqMZ4t3L-21" value="web" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="434" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
