@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T08:18:23.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36" etag="u2DmBKoOlqLYl-IsA2IE" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T08:24:59.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36" etag="CCLIqNFZ2i0ukL0oIACa" version="14.2.6" type="github">
   <diagram id="qDR9BNQT6MyQlyxja0o1" name="Page-1">
     <mxGraphModel dx="833" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="UjshQOFhaP-9OiW8KkyQ-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-9">
           <mxGeometry x="45" y="80" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UjshQOFhaP-9OiW8KkyQ-20" value="接收进程间消息" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-9">
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-20" value="接收客户进程的消息" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-9">
           <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UjshQOFhaP-9OiW8KkyQ-21" value="分析消息内容&lt;br&gt;增加g_pidlist节点" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-9">
