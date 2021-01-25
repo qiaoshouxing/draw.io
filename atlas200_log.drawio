@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T06:46:52.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36" version="14.2.6" etag="P1RFr71MNf8E7uHfKBy_" type="github"><diagram id="qDR9BNQT6MyQlyxja0o1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-25T08:15:56.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36" etag="GFcf21JmqavNMd-lbxac" version="14.2.6" type="github">
+  <diagram id="qDR9BNQT6MyQlyxja0o1" name="Page-1">
+    <mxGraphModel dx="833" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-1" value="slogd" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="100" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-3" value="创建PID号存储文件/usr/slog/slogd.pid&lt;br&gt;（JustStartAProcess()）" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-1">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-31" value="调用&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;ProcSyslogd&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=-0.4;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="UjshQOFhaP-9OiW8KkyQ-1" target="UjshQOFhaP-9OiW8KkyQ-2">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="300" as="sourcePoint" />
+            <mxPoint x="110" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-5" value="创建" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=-0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="UjshQOFhaP-9OiW8KkyQ-10" parent="1" source="UjshQOFhaP-9OiW8KkyQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="250" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-9" value="线程1&lt;br&gt;SetLogLevel()" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="570" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-4" value="创建MSG_QUEUE_KEY的IPCS" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-9">
+          <mxGeometry x="45" y="180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-9">
+          <mxGeometry x="45" y="80" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-20" value="接收进程间消息" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-9">
+          <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-21" value="分析消息内容&lt;br&gt;增加g_pidlist节点" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-9">
+          <mxGeometry x="45" y="320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-11" value="线程2&lt;br&gt;CheckProcessWhetherExist（）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="554" y="610" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-12" value="pidlist非法pid被剔除" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-11">
+          <mxGeometry x="95" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-14" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.8;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.9;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="UjshQOFhaP-9OiW8KkyQ-11" source="UjshQOFhaP-9OiW8KkyQ-12" target="UjshQOFhaP-9OiW8KkyQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="150" as="sourcePoint" />
+            <mxPoint x="210" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-15" value="每5s循环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UjshQOFhaP-9OiW8KkyQ-14">
+          <mxGeometry x="0.4387" y="17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-13" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;创建线程维护g_pidlist&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1.2;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="UjshQOFhaP-9OiW8KkyQ-12" parent="1" source="UjshQOFhaP-9OiW8KkyQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-22" value="循环处理" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.7;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="UjshQOFhaP-9OiW8KkyQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="940" as="sourcePoint" />
+            <mxPoint x="534" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="614" y="940" />
+              <mxPoint x="614" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-30" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="690" width="30" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-2" value="创建进程间通信文件/usr/slog/slog&lt;br&gt;CreateSocket()" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-30">
+          <mxGeometry x="10" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-25" value="设置客户端消息保存位置/var/dlog及信息&lt;br&gt;SyslogInit()" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-30">
+          <mxGeometry x="10" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-27" value="循环接收日志消息并处理&lt;br&gt;ProcEscapeThenLog()&lt;br&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UjshQOFhaP-9OiW8KkyQ-30">
+          <mxGeometry x="10" y="240" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UjshQOFhaP-9OiW8KkyQ-32" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1.267;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.683;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="UjshQOFhaP-9OiW8KkyQ-30" source="UjshQOFhaP-9OiW8KkyQ-27" target="UjshQOFhaP-9OiW8KkyQ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="320" as="sourcePoint" />
+            <mxPoint x="100" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
